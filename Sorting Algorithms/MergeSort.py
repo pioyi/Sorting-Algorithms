@@ -7,7 +7,8 @@
 # Best       O(n log n)
 
 def MergeSort(seq): 
-    if len(seq) > 1: 
+    if len(seq) > 1:
+        # Extracting the sides and the centeral item  
         center = len(seq) // 2
         left_side = MergeSort(seq[:center]) 
         right_side = MergeSort(seq[center:]) 
