@@ -1,7 +1,3 @@
-# # # # # # # # # #
-#   Merge  Sort   #
-# # # # # # # # # #
-
 # Average    O(n log n)
 # Worst      O(n log n)
 # Best       O(n log n)
