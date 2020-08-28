@@ -1,7 +1,3 @@
-# # # # # # # # #
-#   QuickSort   #
-# # # # # # # # #
-
 # Average    O(n log n)
 # Worst      O(n²)
 # Best       O(n log n)
