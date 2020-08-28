@@ -1,7 +1,3 @@
-# # # # # # # # # #
-#   Bubble Sort   #
-# # # # # # # # # #
-
 # Average    O(n²)
 # Worst      O(n²)
 # Best       O(n)
