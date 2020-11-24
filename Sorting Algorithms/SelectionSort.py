@@ -1,12 +1,8 @@
-# Average    O(n²)
-# Worst      O(n²)
-# Best       O(n²)
-
 def SelectionSort(seq):
     for i in range(len(seq)):
         minimum = i
 
-        # Search for another smaller value
+        # Search for a potentially smaller value
         for j in range(i+1, len(seq)):
             if seq[minimum] > seq[j]:
                 minimum = j
