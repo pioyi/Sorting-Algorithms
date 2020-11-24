@@ -1,7 +1,3 @@
-# Average    O(n log n)
-# Worst      O(n log n)
-# Best       O(n log n)
-
 def MergeSort(seq): 
     if len(seq) > 1:
         # Extracting the sides and the centeral item using recursion
