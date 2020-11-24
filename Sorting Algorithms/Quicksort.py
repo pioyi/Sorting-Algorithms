@@ -1,7 +1,3 @@
-# Average    O(n log n)
-# Worst      O(n²)
-# Best       O(n log n)
-
 def Quicksort(seq):
     if len(seq) < 2:
         return seq
