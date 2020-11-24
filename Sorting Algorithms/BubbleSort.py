@@ -1,7 +1,3 @@
-# Average    O(n²)
-# Worst      O(n²)
-# Best       O(n)
-
 def BubbleSort(seq): 
     for i in range(len(seq)):
         for j in range(i+1, len(seq)):
