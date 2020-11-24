@@ -1,6 +1,6 @@
 def MergeSort(seq): 
     if len(seq) > 1:
-        # Extracting the sides and the centeral item using recursion
+        # Extracting the sides and the central item using recursion
         center = len(seq) // 2
         left_side = MergeSort(seq[:center]) 
         right_side = MergeSort(seq[center:]) 
