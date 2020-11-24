@@ -1,7 +1,3 @@
-# Average    O(n²)
-# Worst      O(n²)
-# Best       O(n)
-
 def InsertionSort(seq):
     for i in range(1, len(seq)):
         selected_value = seq[i]
